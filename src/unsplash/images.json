@@ -1,0 +1,122 @@
+[
+  {
+      "url": "https://images.unsplash.com/photo-1678126905287-42ea85973c76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTk1NDV8MHwxfGFsbHwxfHx8fHx8Mnx8MTY3ODIwNzM2Mw&ixlib=rb-4.0.3&q=80&w=1080",
+      "id": "1",
+      "isFavorite": false
+  },
+  {
+      "url": "https://images.unsplash.com/photo-1678169810343-b1b73259743b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTk1NDV8MHwxfGFsbHwyfHx8fHx8Mnx8MTY3ODIwNzM2Mw&ixlib=rb-4.0.3&q=80&w=1080",
+      "id": "2",
+      "isFavorite": false
+  },
+  {
+      "url": "https://images.unsplash.com/photo-1678123403273-68aaa142c6b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTk1NDV8MHwxfGFsbHwzfHx8fHx8Mnx8MTY3ODIwNzM2Mw&ixlib=rb-4.0.3&q=80&w=1080",
+      "id": "3",
+      "isFavorite": false
+  },
+  {
+      "url": "https://images.unsplash.com/photo-1678115062310-c59240f3ab1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTk1NDV8MHwxfGFsbHw0fHx8fHx8Mnx8MTY3ODIwNzM2Mw&ixlib=rb-4.0.3&q=80&w=1080",
+      "id": "4",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic5.jpg?raw=true",
+      "id": "5",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic6.jpg?raw=true",
+      "id": "6",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic7.jpg?raw=true",
+      "id": "7",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic8.jpg?raw=true",
+      "id": "8",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic9.jpg?raw=true",
+      "id": "9",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic10.jpg?raw=true",
+      "id": "10",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic11.jpg?raw=true",
+      "id": "11",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic12.jpg?raw=true",
+      "id": "12",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic13.jpg?raw=true",
+      "id": "13",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic14.jpg?raw=true",
+      "id": "14",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic15.jpg?raw=true",
+      "id": "15",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic16.jpg?raw=true",
+      "id": "16",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic17.jpg?raw=true",
+      "id": "17",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic18.jpg?raw=true",
+      "id": "18",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic19.jpg?raw=true",
+      "id": "19",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic20.jpg?raw=true",
+      "id": "20",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic21.jpg?raw=true",
+      "id": "21",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic22.jpg?raw=true",
+      "id": "22",
+      "isFavorite": false
+  },
+  {
+      "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic23.jpg?raw=true",
+      "id": "23",
+      "isFavorite": false
+  },
+  {
+      "url": "https://images.unsplash.com/photo-1678185201839-6de2bd49b714?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTk1NDV8MHwxfGFsbHwxMHx8fHx8fDJ8fDE2NzgyMDczNjM&ixlib=rb-4.0.3&q=80&w=1080",
+      "id": "24",
+      "isFavorite": false
+  }
+]

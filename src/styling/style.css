@@ -1,0 +1,113 @@
+/* CSS Variables here */
+:root {
+  --light: rgb(233, 227, 222);
+  --dark: rgb(44, 44, 44);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Oswald', sans-serif;
+}
+
+div.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: rgb(44, 44, 44);
+  color: var(--light);
+
+}
+
+header .navigation ul{
+  display: flex;
+  list-style: none;
+  gap: .5rem;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--light);
+  transition: all .3s ease-in-out;
+  text-decoration-color: transparent;
+}
+
+nav a:hover {
+  text-decoration-color: var(--light);
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(44, 44, 44);
+  margin-top: auto;
+  padding: .5rem
+}
+
+footer > small{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light);
+}
+
+main.gallery {
+  padding: 1rem;
+  display: grid;
+  gap: .5rem;
+  grid-auto-rows: 150px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-flow: dense;
+}
+
+.gallery-grid-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* .image-container:hover {
+  transform: scale(1.01);
+} */
+
+.image-container img {
+  position: absolute;
+}
+
+.image-container i {
+  position: absolute;
+  cursor: pointer;
+  z-index: 999;
+  left: 1rem;
+  top: 1rem;
+}
+
+
+/* .wide {
+  grid-column: span 2;
+}
+
+.tall {
+  grid-row: span 2;
+}
+
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+} */
