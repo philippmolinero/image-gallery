@@ -7,6 +7,7 @@ function Gallery() {
   const {allImages} = useContext(Context)
 
 
+
   const gallery = allImages.map((image, i) => {
     return <Image img={image} key={image.id} className={i}/>
   })
