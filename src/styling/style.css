@@ -26,7 +26,6 @@ header {
   padding: 0.5rem 1rem;
   background-color: rgb(44, 44, 44);
   color: var(--light);
-
 }
 
 header .navigation ul{
@@ -69,35 +68,90 @@ main.gallery {
   grid-auto-flow: dense;
 }
 
-.gallery-grid-item {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 .image-container {
   position: relative;
   overflow: hidden;
   border-radius: 3px;
-  transition: all 0.2s ease-in-out;
 }
 
-/* .image-container:hover {
-  transform: scale(1.01);
-} */
-
-.image-container img {
-  position: absolute;
+.gallery-grid-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .image-container i {
+  color:rgb(255, 255, 255);
+  outline: greenyellow;
+  filter: drop-shadow(0px 0px 1px rgb(0 0 0 / .5));
+  font-size: clamp(1rem, -0.875rem + 8.333vw, 1rem);
+  opacity: .8;
+  cursor: pointer;
+}
+
+i.favorite {
   position: absolute;
   cursor: pointer;
-  z-index: 999;
   left: 1rem;
   top: 1rem;
 }
 
+i.cart {
+  position: absolute;
+  cursor: pointer;
+  right: 1rem;
+  top: 1rem;
+}
+
+/* Cart Page Styling */
+
+/* .cart-container {
+  padding: .5rem 1rem;
+  width: 100%;
+} */
+
+main.cart {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.cart-container {
+  min-width: 100vw;
+}
+
+.cart-container > h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.cart-item-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: .5rem 2rem;
+  margin: .5rem 0;
+  background-color: rgb(245, 245, 245);
+}
+.cart-item-container > p {
+  padding: 0;
+  margin-left: -3rem;
+}
+
+.cart-item-container > i {
+  color: rgb(0, 0, 0);
+}
+
+
+.cart-img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0;
+
+}
 
 /* .wide {
   grid-column: span 2;

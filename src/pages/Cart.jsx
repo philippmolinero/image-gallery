@@ -1,9 +1,11 @@
-
+import CartItem from "../components/Cartitem"
 
 function Cart() {
 
   return (
-    <p>here comes the Cart stuff</p>
+    <main className="cart">
+      <CartItem/>
+    </main>
   )
 }
 

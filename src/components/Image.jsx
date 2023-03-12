@@ -4,32 +4,33 @@ import { Context } from "../Context/Context"
 function Image({img, className}) {
   
   const [hovered, setHovered] = useState(false)
-  const {toggleFavorite} = useContext(Context)
+  const {toggleFavorite, shoppingCart, addToCart, removeFromCart} = useContext(Context)
   
-  //   <i class="fa-solid fa-heart"></i>
-  //   <i class="fa-solid fa-cart-circle-plus"></i>
 
   const heartIcon = ()  => {
     if(!img.isFavorite) {
-      return hovered && <i className="fa-regular fa-heart" onClick={() => toggleFavorite(img)}></i>
-    } else if (hovered) {
-      return <i className="fa-solid fa-heart" onClick={() => toggleFavorite(img)}></i>
-    }
+      return hovered && <i className="fa-regular fa-heart favorite" onClick={() => toggleFavorite(img)}></i>
+    } else return <i className="fa-solid fa-heart favorite" onClick={() => toggleFavorite(img)}></i>
+    
   } 
-  
-  const cartIcon = hovered && <i className="fa-regular fa-cart-circle-plus"></i>
 
+  const cartIcon = ()  => {
+   if(!shoppingCart.includes(img)) {
+    return hovered && <i className="fa-solid fa-cart-plus cart" onClick={() => addToCart(img)}></i>
+   } else if (hovered) {
+    return <i className="fa-solid fa-trash cart" onClick={() => removeFromCart(img)}></i>
+   }
+  } 
 
   return(
   <div 
     className="image-container"
     onMouseEnter={() => setHovered(true)}
     onMouseLeave={() => setHovered(false)}
-  
   >
-    <img src={img.url} className="gallery-grid-item"/>
+    <img src={img.url} className="gallery-grid-img"/>
     {heartIcon()}
-    {cartIcon}
+    {cartIcon()}
   </div>
   )
 }
