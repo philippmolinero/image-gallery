@@ -82,8 +82,7 @@ main.gallery {
 }
 
 .image-container i {
-  color:rgb(255, 255, 255);
-  outline: greenyellow;
+  color:rgb(0, 0, 0);
   filter: drop-shadow(0px 0px 1px rgb(0 0 0 / .5));
   font-size: clamp(1rem, -0.875rem + 8.333vw, 1rem);
   opacity: .8;

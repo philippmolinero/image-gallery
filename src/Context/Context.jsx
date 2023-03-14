@@ -27,14 +27,19 @@ function ContextProvider({children}) {
   }
 
 
-  // I am creating a cart array, where I store all items that have been added to the cart via icon. Steps:
+  // Cart array is created, where all added items are "stored"
   // 1) Create function to add the selected item to the cart array
   // 1.1) Only add the item to the array if non existant
   // 2) Create function to remove the selected item from the cart array
   // 3) Change the icon of the cart to a trash icon, if it already exists in the cart array
 
   const addToCart = (cartItem) => {
-    setShoppingCart(prevShoppingCart => [...prevShoppingCart, cartItem])
+    const filteredCart = shoppingCart.find(item => {
+      return item === cartItem
+    })
+    if(!filteredCart) {
+      return setShoppingCart(prevShoppingCart => [...prevShoppingCart, cartItem])
+    }
   }
 
   // remove item from shoppingcart here
