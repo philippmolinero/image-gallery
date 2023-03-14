@@ -6,6 +6,7 @@ const CartItem = () => {
 
   const {shoppingCart, removeFromCart} = useContext(Context)
 
+
   const cartItems = shoppingCart.map(item => {
     return (
       <div className="cart-item-container" key={item.id}>
@@ -16,7 +17,6 @@ const CartItem = () => {
       )
   })
 
-  console.log(Array.isArray(shoppingCart))
   return (
     <div className="cart-container">
       <h1>You Cart</h1>
