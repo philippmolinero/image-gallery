@@ -82,7 +82,7 @@ main.gallery {
 }
 
 i {
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
   filter: drop-shadow(0px 0px 1px rgb(0 0 0 / .5));
   font-size: clamp(1rem, -0.875rem + 8.333vw, 1rem);
   cursor: pointer;
@@ -92,7 +92,7 @@ i.favorite {
   position: absolute;
   left: 1rem;
   top: 1rem;
-  opacity: .8;
+  opacity: .9;
 }
 
 i.cart {
