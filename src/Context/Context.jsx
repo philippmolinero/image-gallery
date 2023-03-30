@@ -6,7 +6,7 @@ function ContextProvider({children}) {
   const [allImages, setAllImages] = useState([])
   const [shoppingCart, setShoppingCart] = useState([])
 
-  const url = "https://github.com/philippmolinero/image-gallery/blob/main/src/unsplash/images.json"
+  const url = "src/unsplash/images.json"
 
   useEffect(() => {
     fetch(url)
