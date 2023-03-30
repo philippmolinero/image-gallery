@@ -3,15 +3,17 @@ const Context = createContext()
 
 function ContextProvider({children}) {
   
+  
   const [allImages, setAllImages] = useState([])
   const [shoppingCart, setShoppingCart] = useState([])
 
-  const url = "src/unsplash/images.json"
+  const url = "https://api.jsonbin.io/v3/b/64252800c0e7653a05997603/latest"
+
 
   useEffect(() => {
     fetch(url)
     .then(res => res.json())
-    .then(data => setAllImages(data))
+    .then(data => setAllImages(data.record))
   },[])
 
   const toggleFavorite = (item) => {
